@@ -4,7 +4,7 @@ go 1.21.4
 
 require (
 	github.com/Sagleft/swiss-knife v1.8.1
-	github.com/Sagleft/tgfun v1.0.12
+	github.com/Sagleft/tgfun v1.0.13
 	github.com/kelseyhightower/envconfig v1.4.0
 )
 
