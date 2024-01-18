@@ -8,6 +8,7 @@ const (
 	eventAboutAssistantTag = "aboutAssistant"
 	eventAboutTitlesTag    = "aboutTitles"
 	eventAboutSourceTag    = "aboutSource"
+	eventAboutCheckInfoTag = "aboutCheckInfo"
 )
 
 func getData(cfg config) tgfun.FunnelData {
@@ -68,6 +69,12 @@ func getScript() tgfun.FunnelScript {
 		eventTitlesAnswer2:  getTitlesAnswer2(),
 		eventTitlesAnswer3:  getTitlesAnswer3(),
 		eventTitlesAnswer4:  getTitlesAnswer4(),
+
+		eventAboutSourceTag: getSourceQuest(),
+		eventSourceAnswer1:  getSourceAnswer1(),
+		eventSourceAnswer2:  getSourceAnswer2(),
+		eventSourceAnswer3:  getSourceAnswer3(),
+		eventSourceAnswer4:  getSourceAnswer4(),
 	}
 }
 
