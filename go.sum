@@ -60,8 +60,8 @@ github.com/DataDog/datadog-go v3.2.0+incompatible/go.mod h1:LButxg5PwREeZtORoXG3
 github.com/OneOfOne/xxhash v1.2.2/go.mod h1:HSdplMjZKSmBqAxg5vPj2TmRDmfkzw+cTzAElWljhcU=
 github.com/Sagleft/swiss-knife v1.8.1 h1:IncgeO2i9a4cwoHN9xdusrdFW2L8Pu05JYeQxcOXFu0=
 github.com/Sagleft/swiss-knife v1.8.1/go.mod h1:hk74l7nbvV97CRj2yl/gSeKimKDdMGYNySGx/KH666I=
-github.com/Sagleft/tgfun v1.1.2 h1:2KNy67PesfyBTkTJYmARl+WHZiJhis8UrQNFuCLfUvI=
-github.com/Sagleft/tgfun v1.1.2/go.mod h1:sc9elpdrFAB0O6VpjXYkavzZJZruuUinmXNgLmk4XAg=
+github.com/Sagleft/tgfun v1.2.0 h1:Zt5EZmYt4Q10A4fqQ1y5KvQDMlXmBt22ISgKA8sjG6k=
+github.com/Sagleft/tgfun v1.2.0/go.mod h1:sc9elpdrFAB0O6VpjXYkavzZJZruuUinmXNgLmk4XAg=
 github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc/go.mod h1:LOuyumcjzFXgccqObfd/Ljyb9UuFJ6TxHnclSeseNhc=
 github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751/go.mod h1:LOuyumcjzFXgccqObfd/Ljyb9UuFJ6TxHnclSeseNhc=
 github.com/alecthomas/units v0.0.0-20151022065526-2efee857e7cf/go.mod h1:ybxpYRFXyAe+OPACYpWeL0wqObRcbAqCMya13uyzqw0=
