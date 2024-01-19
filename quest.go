@@ -260,7 +260,45 @@ func getSourceAnswer4() tgfun.FunnelEvent {
 
 func getTip4Button() tgfun.MessageButton {
 	return tgfun.MessageButton{
-		Text:          "🧐 Совет №4 и тест",
+		Text:          "🧐 Совет №4",
 		NextMessageID: eventAboutCheckInfoTag,
+	}
+}
+
+func getCheckInfoMessage() tgfun.FunnelEvent {
+	return tgfun.FunnelEvent{
+		Message: tgfun.EventMessage{
+			Text: `4️⃣ *Не переедай.* Даже здоровая еда вредна, если не знать меры. С информацией то же самое. Отпишись от информационного фастфуда.
+
+			😉 Подытожим:
+			1. Используй правильные инструменты.
+			2. Придирайся к заголовкам.
+			3. Смотри, есть ли источник и какой он.
+			4. Не потребляй слишком много информации.`,
+
+			Image: "source_5.jpg",
+
+			Buttons: []tgfun.MessageButton{
+				{
+					Text:          "Подробнее про ИИ-ассистента",
+					NextMessageID: eventAboutAITag2,
+				},
+			},
+			ButtonsIsColumns: false,
+		},
+	}
+}
+
+func getEventAboutAI2() tgfun.FunnelEvent {
+	return tgfun.FunnelEvent{
+		Message: tgfun.EventMessage{
+			Text: `😎 В приложении Utopia ты можешь получить бесплатный доступ к ИИ-ассистенту, который подскажет как решить любую проблему, найдет для тебя информацию и даже поможет сгенерировать какую-либо идею.
+			
+			Приложение доступно бесплатно для ПК и смартфона. Доступно для Android, Windows, Linux, MacOS.`,
+			Buttons: []tgfun.MessageButton{
+				getDownloadUtopiaButton(),
+			},
+			ButtonsIsColumns: false,
+		},
 	}
 }

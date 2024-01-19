@@ -5,6 +5,7 @@ import "github.com/Sagleft/tgfun"
 const (
 	eventAboutHygieneTag   = "aboutHygiene"
 	eventAboutAITag        = "aboutAI"
+	eventAboutAITag2       = "aboutAI2"
 	eventAboutAssistantTag = "aboutAssistant"
 	eventAboutTitlesTag    = "aboutTitles"
 	eventAboutSourceTag    = "aboutSource"
@@ -75,6 +76,9 @@ func getScript() tgfun.FunnelScript {
 		eventSourceAnswer2:  getSourceAnswer2(),
 		eventSourceAnswer3:  getSourceAnswer3(),
 		eventSourceAnswer4:  getSourceAnswer4(),
+
+		eventAboutCheckInfoTag: getCheckInfoMessage(),
+		eventAboutAITag2:       getEventAboutAI2(),
 	}
 }
 
