@@ -1,6 +1,6 @@
 module bot
 
-go 1.21.4
+go 1.19
 
 require (
 	github.com/Sagleft/swiss-knife v1.8.1
