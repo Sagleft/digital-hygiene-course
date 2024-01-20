@@ -84,7 +84,7 @@ func getScript() tgfun.FunnelScript {
 
 func getDownloadUtopiaButton() tgfun.MessageButton {
 	return tgfun.MessageButton{
-		Text: "Скачать Utopia",
+		Text: "🔗 Скачать Utopia",
 		URL:  "https://guest.link/utopia",
 	}
 }
