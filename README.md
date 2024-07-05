@@ -19,3 +19,9 @@ To run, set the `TELEGRAM_BOT_TOKEN` env variable.
 ---
 
 [![udocs](https://github.com/Sagleft/ures/blob/master/udocs-btn.png?raw=true)](https://udocs.gitbook.io/utopia-api/)
+
+---
+
+## You might also be interested in:
+
+[![automate crypto trading](https://github.com/Sagleft/Sagleft/blob/master/matrixbot_github_banner_1.png?raw=true)](https://t.me/get_matrixbot?start=github_org)
